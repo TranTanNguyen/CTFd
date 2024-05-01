@@ -990,3 +990,42 @@ msgstr "Ẩn"
 msgid "Banned"
 msgstr "Cấm"
 
+#: CTFd/themes/admin/templates/scoreboard.html:6
+msgid "Scoreboard"
+msgstr "Bảng điểm"
+
+#: CTFd/themes/admin/templates/scoreboard.html:28
+msgid "Teams"
+msgstr "Đội"
+
+#: CTFd/themes/admin/templates/scoreboard.html:33
+msgid "Users"
+msgstr "Người dùng"
+
+
+
+
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:11
+msgid "Challenges"
+msgstr "Thử thách"
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:79
+msgid "Name"
+msgstr "Tên"
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:80
+msgid "Category"
+msgstr "Loại"
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:11
+msgid "Value"
+msgstr "Giá trị"
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:11
+msgid "Type"
+msgstr "Kiểu"
+
+#:CTFf/themes/admin/templates/challenges/challenges.html:11
+msgid "State"
+msgstr "Tình trạng"

@@ -8,7 +8,7 @@
 {% block content %}
 <div class="jumbotron">
 	<div class="container">
-		<h1>Challenges
+		<h1>{% trans %}Challenges{% endtrans %}
 			<a class="no-decoration" href="{{ url_for('admin.challenges_new') }}">
 				<span role="button" data-toggle="tooltip" title="Create Challenge">
 					<i class="btn-fa fas fa-plus-circle"></i>
@@ -76,11 +76,11 @@
 							</div>
 						</td>
 						<th class="sort-col text-center"><b>ID</b></th>
-						<th class="sort-col"><b>Name</b></th>
-						<th class="sort-col"><b>Category</b></th>
-						<th class="sort-col text-center"><b>Value</b></th>
-						<th class="sort-col text-center"><b>Type</b></th>
-						<th class="sort-col text-center"><b>State</b></th>
+						<th class="sort-col"><b>{% trans %}Name{% endtrans %}</b></th>
+						<th class="sort-col"><b>{% trans %}Category{% endtrans %}</b></th>
+						<th class="sort-col text-center"><b>{% trans %}Value{% endtrans %}</b></th>
+						<th class="sort-col text-center"><b>{% trans %}Type{% endtrans %}</b></th>
+						<th class="sort-col text-center"><b>{% trans %}State{% endtrans %}</b></th>
 					</tr>
 					</thead>
 					<tbody>
