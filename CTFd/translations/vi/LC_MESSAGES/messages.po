@@ -1,86 +1,82 @@
+
 msgid ""
 msgstr ""
-"Project-Id-Version: CTFd\n"
+"Project-Id-Version:  CTFd\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-10-07 03:17-0400\n"
-"PO-Revision-Date: 2024-04-01 05:30\n"
+"POT-Creation-Date: 2024-05-08 21:04+0700\n"
+"PO-Revision-Date: 2024-04-01 05:30+0000\n"
 "Last-Translator: \n"
-"Language-Team: Vietnamese\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: CTFd\n"
-"X-Crowdin-Project-ID: 659064\n"
-"X-Crowdin-Language: vi\n"
-"X-Crowdin-File: /master/messages.pot\n"
-"X-Crowdin-File-ID: 188\n"
 "Language: vi_VN\n"
+"Language-Team: Vietnamese\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: CTFd/forms/auth.py:19 CTFd/forms/self.py:16
+#: CTFd/forms/auth.py:21 CTFd/forms/self.py:21
 #: CTFd/themes/core-beta/templates/teams/private.html:319
 #: CTFd/themes/core-beta/templates/teams/public.html:85
 msgid "User Name"
 msgstr "Tên tài khoản"
 
-#: CTFd/forms/auth.py:21 CTFd/forms/auth.py:53 CTFd/forms/self.py:17
-#: CTFd/forms/teams.py:203
+#: CTFd/forms/auth.py:23 CTFd/forms/auth.py:60 CTFd/forms/self.py:22
+#: CTFd/forms/teams.py:230
 msgid "Email"
 msgstr "Email"
 
-#: CTFd/forms/auth.py:22 CTFd/forms/auth.py:43 CTFd/forms/auth.py:60
-#: CTFd/forms/self.py:19 CTFd/forms/teams.py:204
+#: CTFd/forms/auth.py:24 CTFd/forms/auth.py:50 CTFd/forms/auth.py:67
+#: CTFd/forms/self.py:24 CTFd/forms/teams.py:231
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: CTFd/forms/auth.py:23 CTFd/forms/auth.py:44 CTFd/forms/auth.py:55
-#: CTFd/forms/auth.py:62 CTFd/forms/self.py:24 CTFd/forms/teams.py:127
-#: CTFd/forms/teams.py:210 CTFd/themes/core-beta/templates/challenge.html:147
+#: CTFd/forms/auth.py:25 CTFd/forms/auth.py:51 CTFd/forms/auth.py:62
+#: CTFd/forms/auth.py:69 CTFd/forms/self.py:29 CTFd/forms/teams.py:154
+#: CTFd/forms/teams.py:237 CTFd/themes/core-beta/templates/challenge.html:147
 msgid "Submit"
 msgstr "Gửi"
 
-#: CTFd/forms/auth.py:39
+#: CTFd/forms/auth.py:46
 msgid "User Name or Email"
 msgstr "Tên tài khoản hoặc mật khẩu"
 
-#: CTFd/forms/auth.py:48
+#: CTFd/forms/auth.py:55
 msgid "Resend Confirmation Email"
 msgstr "Gửi Email xác nhận"
 
-#: CTFd/forms/self.py:18 CTFd/forms/users.py:155
+#: CTFd/forms/self.py:23 CTFd/forms/users.py:181
 msgid "Language"
 msgstr "Ngôn ngữ"
 
-#: CTFd/forms/self.py:20
+#: CTFd/forms/self.py:25
 msgid "Current Password"
 msgstr "Mật khẩu hiện tại"
 
-#: CTFd/forms/self.py:21 CTFd/forms/teams.py:113 CTFd/forms/teams.py:191
-#: CTFd/forms/teams.py:206 CTFd/forms/users.py:138
+#: CTFd/forms/self.py:26 CTFd/forms/teams.py:140 CTFd/forms/teams.py:218
+#: CTFd/forms/teams.py:233 CTFd/forms/users.py:164
 #: CTFd/themes/core-beta/templates/teams/teams.html:51
 #: CTFd/themes/core-beta/templates/users/users.html:48
 msgid "Affiliation"
 msgstr "Tổ chức"
 
-#: CTFd/forms/self.py:22 CTFd/forms/teams.py:119 CTFd/forms/teams.py:192
-#: CTFd/forms/teams.py:205 CTFd/forms/users.py:139
+#: CTFd/forms/self.py:27 CTFd/forms/teams.py:146 CTFd/forms/teams.py:219
+#: CTFd/forms/teams.py:232 CTFd/forms/users.py:165
 #: CTFd/themes/core-beta/templates/teams/teams.html:50
 #: CTFd/themes/core-beta/templates/users/users.html:47
 msgid "Website"
 msgstr "Trang web"
 
-#: CTFd/forms/self.py:23 CTFd/forms/teams.py:123 CTFd/forms/teams.py:207
+#: CTFd/forms/self.py:28 CTFd/forms/teams.py:150 CTFd/forms/teams.py:234
 #: CTFd/themes/core-beta/templates/teams/teams.html:52
 #: CTFd/themes/core-beta/templates/users/users.html:49
 msgid "Country"
 msgstr "Quốc gia"
 
-#: CTFd/forms/self.py:52 CTFd/themes/core-beta/templates/settings.html:225
+#: CTFd/forms/self.py:59 CTFd/themes/core-beta/templates/settings.html:225
 msgid "Expiration"
 msgstr "Hết hạn"
 
-#: CTFd/forms/self.py:54
+#: CTFd/forms/self.py:61
 msgid "Generate"
 msgstr "Tạo"
 
@@ -109,8 +105,12 @@ msgid "Team Mode"
 msgstr "Chế độ đồng đội"
 
 #: CTFd/forms/setup.py:38
-msgid "Controls whether users join together in teams to play (Team Mode) or play as themselves (User Mode)"
-msgstr "Lựa chọn việc người dùng sẽ chơi theo nhóm (Chế độ đồng đội) hoặc từng cá nhân (Chế độ cá nhân)"
+msgid ""
+"Controls whether users join together in teams to play (Team Mode) or play"
+" as themselves (User Mode)"
+msgstr ""
+"Lựa chọn việc người dùng sẽ chơi theo nhóm (Chế độ đồng đội) hoặc từng cá"
+" nhân (Chế độ cá nhân)"
 
 #: CTFd/forms/setup.py:45
 msgid "Admin Username"
@@ -141,8 +141,12 @@ msgid "Logo"
 msgstr "Logo"
 
 #: CTFd/forms/setup.py:62
-msgid "Logo to use for the website instead of a CTF name. Used as the home page button. Optional."
-msgstr "Logo dùng cho trang web thay vì tên của cuộc thi. Sử dụng như nút quay về trang chủ. Không bắt buộc."
+msgid ""
+"Logo to use for the website instead of a CTF name. Used as the home page "
+"button. Optional."
+msgstr ""
+"Logo dùng cho trang web thay vì tên của cuộc thi. Sử dụng như nút quay về"
+" trang chủ. Không bắt buộc."
 
 #: CTFd/forms/setup.py:67
 msgid "Banner"
@@ -157,8 +161,12 @@ msgid "Small Icon"
 msgstr "Logo nhỏ"
 
 #: CTFd/forms/setup.py:71
-msgid "favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. Optional."
-msgstr "Favicon sử dụng cho trình duyệt. Chỉ chấp nhận file PNG. Kích thước 32x32 pixel. Không bắt buộc."
+msgid ""
+"favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. "
+"Optional."
+msgstr ""
+"Favicon sử dụng cho trình duyệt. Chỉ chấp nhận file PNG. Kích thước 32x32"
+" pixel. Không bắt buộc."
 
 #: CTFd/forms/setup.py:76
 msgid "Theme"
@@ -173,7 +181,9 @@ msgid "Theme Color"
 msgstr "Màu theme"
 
 #: CTFd/forms/setup.py:85
-msgid "Color used by theme to control aesthetics. Requires theme support. Optional."
+msgid ""
+"Color used by theme to control aesthetics. Requires theme support. "
+"Optional."
 msgstr "Màu của theme. Yêu cầu theme phải hỗ trợ đổi màu. Không bắt buộc."
 
 #: CTFd/forms/setup.py:91
@@ -200,101 +210,105 @@ msgstr "Thời gian cuộc thi được lên lịch để kết thúc. Không b�
 msgid "Finish"
 msgstr "Kết thúc"
 
-#: CTFd/forms/teams.py:76 CTFd/forms/teams.py:83 CTFd/forms/teams.py:100
-#: CTFd/forms/teams.py:202
+#: CTFd/forms/teams.py:102 CTFd/forms/teams.py:109 CTFd/forms/teams.py:127
+#: CTFd/forms/teams.py:229
 msgid "Team Name"
 msgstr "Tên đội"
 
-#: CTFd/forms/teams.py:77 CTFd/forms/teams.py:84
+#: CTFd/forms/teams.py:103 CTFd/forms/teams.py:110
 msgid "Team Password"
 msgstr "Mật khẩu cho đội"
 
-#: CTFd/forms/teams.py:78 CTFd/forms/teams.py:258
+#: CTFd/forms/teams.py:104 CTFd/forms/teams.py:289
 msgid "Join"
 msgstr "Tham gia"
 
-#: CTFd/forms/teams.py:85
+#: CTFd/forms/teams.py:111
 msgid "Create"
 msgstr "Tạo"
 
-#: CTFd/forms/teams.py:101
+#: CTFd/forms/teams.py:128
 msgid "Your team's public name shown to other competitors"
 msgstr "Tên đội hiển thị công khai với các đội thi đấu khác"
 
-#: CTFd/forms/teams.py:104
+#: CTFd/forms/teams.py:131
 msgid "New Team Password"
 msgstr "Mật khẩu đội mới"
 
-#: CTFd/forms/teams.py:104
+#: CTFd/forms/teams.py:131
 msgid "Set a new team join password"
 msgstr "Đặt một mật khẩu đội mới"
 
-#: CTFd/forms/teams.py:107
+#: CTFd/forms/teams.py:134
 msgid "Confirm Current Team Password"
 msgstr "Xác nhận mật khẩu đội hiện tại"
 
-#: CTFd/forms/teams.py:108
-msgid "Provide your current team password (or your password) to update your team's password"
-msgstr "Nhập vào mật khẩu đội hiện tại (hoặc mật khẩu của bạn) để cập nhật mật khẩu của đội"
+#: CTFd/forms/teams.py:135
+msgid ""
+"Provide your current team password (or your password) to update your "
+"team's password"
+msgstr ""
+"Nhập vào mật khẩu đội hiện tại (hoặc mật khẩu của bạn) để cập nhật mật "
+"khẩu của đội"
 
-#: CTFd/forms/teams.py:114
+#: CTFd/forms/teams.py:141
 msgid "Your team's affiliation publicly shown to other competitors"
 msgstr "Tổ chức của đội bạn"
 
-#: CTFd/forms/teams.py:120
+#: CTFd/forms/teams.py:147
 msgid "Your team's website publicly shown to other competitors"
 msgstr "Website của đội bạn"
 
-#: CTFd/forms/teams.py:125
+#: CTFd/forms/teams.py:152
 msgid "Your team's country publicly shown to other competitors"
 msgstr "Quốc gia của đội bạn"
 
-#: CTFd/forms/teams.py:165
+#: CTFd/forms/teams.py:192
 msgid "Team Captain"
 msgstr "Thủ lĩnh đội"
 
-#: CTFd/forms/teams.py:188 CTFd/forms/users.py:135
+#: CTFd/forms/teams.py:215 CTFd/forms/users.py:161
 msgid "Search Field"
 msgstr "Khung tìm kiếm"
 
-#: CTFd/forms/teams.py:190 CTFd/forms/users.py:137
-#: CTFd/themes/core-beta/templates/challenge.html:183
+#: CTFd/forms/teams.py:217 CTFd/forms/users.py:163
+#: CTFd/themes/core-beta/templates/challenge.html:206
 msgid "Name"
 msgstr "Tên"
 
-#: CTFd/forms/teams.py:197 CTFd/forms/users.py:145
+#: CTFd/forms/teams.py:224 CTFd/forms/users.py:171
 msgid "Parameter"
 msgstr "Tham số"
 
-#: CTFd/forms/teams.py:198 CTFd/forms/users.py:149
+#: CTFd/forms/teams.py:225 CTFd/forms/users.py:175
 msgid "Search"
 msgstr "Tìm"
 
-#: CTFd/forms/teams.py:208
+#: CTFd/forms/teams.py:235
 msgid "Hidden"
 msgstr "Ẩn"
 
-#: CTFd/forms/teams.py:209
+#: CTFd/forms/teams.py:236
 msgid "Banned"
 msgstr "Bị cấm"
 
-#: CTFd/forms/teams.py:254
+#: CTFd/forms/teams.py:285
 msgid "Invite Link"
 msgstr "Liên kết mời"
 
-#: CTFd/forms/users.py:146
+#: CTFd/forms/users.py:172
 msgid "Search for matching users"
 msgstr "Tìm kiếm người dùng"
 
-#: CTFd/themes/core-beta/templates/base.html:49
+#: CTFd/themes/core-beta/templates/base.html:51
 msgid "Powered by CTFd"
 msgstr "Cung cấp bởi CTFd"
 
+#: CTFd/themes/core-beta/templates/challenge.html:11
 #: CTFd/themes/core-beta/templates/teams/private.html:375
 #: CTFd/themes/core-beta/templates/teams/public.html:141
 #: CTFd/themes/core-beta/templates/users/private.html:114
 #: CTFd/themes/core-beta/templates/users/public.html:113
-#: CTFd/themes/admin/templates/statistics.html:19
 msgid "Challenge"
 msgstr "Thử thách"
 
@@ -312,18 +326,23 @@ msgstr "Xem gợi ý"
 msgid "Flag"
 msgstr "Flag"
 
-#: CTFd/themes/core-beta/templates/challenge.html:167
+#: CTFd/themes/core-beta/templates/challenge.html:168
 msgid "Next Challenge"
 msgstr "Thử thách tiếp theo"
 
-#: CTFd/themes/core-beta/templates/challenge.html:186
+#: CTFd/themes/core-beta/templates/challenge.html:174
+#, fuzzy
+msgid "Share"
+msgstr "Tình trạng"
+
+#: CTFd/themes/core-beta/templates/challenge.html:209
 #: CTFd/themes/core-beta/templates/setup.html:305
 #: CTFd/themes/core-beta/templates/setup.html:326
 msgid "Date"
 msgstr "Ngày"
 
 #: CTFd/themes/core-beta/templates/challenges.html:7
-#: CTFd/themes/core-beta/templates/components/navbar.html:57
+#: CTFd/themes/core-beta/templates/components/navbar.html:59
 msgid "Challenges"
 msgstr "Thử thách"
 
@@ -340,14 +359,18 @@ msgid "Please click the link in that email to confirm your account."
 msgstr "Vui lòng bấm vào liên kết trong Mail để xác nhận tài khoản của bạn."
 
 #: CTFd/themes/core-beta/templates/confirm.html:30
-msgid "If the email doesn’t arrive, check your spam folder or contact an administrator to manually verify your account."
-msgstr "Nếu không tìm thấy Mail, kiểm tra hộp thư Spam hoặc liên hệ quản trị viên để xác nhận tài khoản của bạn."
+msgid ""
+"If the email doesn’t arrive, check your spam folder or contact an "
+"administrator to manually verify your account."
+msgstr ""
+"Nếu không tìm thấy Mail, kiểm tra hộp thư Spam hoặc liên hệ quản trị viên"
+" để xác nhận tài khoản của bạn."
 
 #: CTFd/themes/core-beta/templates/confirm.html:43
 msgid "Change Email Address"
 msgstr "Đổi địa chỉ Email"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:178
+#: CTFd/themes/core-beta/templates/components/navbar.html:180
 #: CTFd/themes/core-beta/templates/login.html:7
 msgid "Login"
 msgstr "Đăng nhập"
@@ -356,7 +379,7 @@ msgstr "Đăng nhập"
 msgid "Forgot your password?"
 msgstr "Quên mật khẩu?"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:97
+#: CTFd/themes/core-beta/templates/components/navbar.html:99
 #: CTFd/themes/core-beta/templates/notifications.html:7
 msgid "Notifications"
 msgstr "Thông báo"
@@ -365,7 +388,7 @@ msgstr "Thông báo"
 msgid "There are no notifications yet"
 msgstr "Chưa có thông báo nào"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:165
+#: CTFd/themes/core-beta/templates/components/navbar.html:167
 #: CTFd/themes/core-beta/templates/register.html:7
 msgid "Register"
 msgstr "Đăng ký"
@@ -387,20 +410,40 @@ msgid "Reset Password"
 msgstr "Đặt lại mật khẩu"
 
 #: CTFd/themes/core-beta/templates/reset_password.html:21
-msgid "You can now reset the password for your account and log in. Please enter in a new password below."
-msgstr "Bây giờ bạn có thể đặt lại mật khẩu và đăng nhập. Vui lòng nhập mật khẩu mới phía bên dưới."
+msgid ""
+"You can now reset the password for your account and log in. Please enter "
+"in a new password below."
+msgstr ""
+"Bây giờ bạn có thể đặt lại mật khẩu và đăng nhập. Vui lòng nhập mật khẩu "
+"mới phía bên dưới."
 
 #: CTFd/themes/core-beta/templates/reset_password.html:44
 msgid "Please provide the email address associated with your account below."
 msgstr "Vui lòng nhập địa chỉ Email gắn với tài khoản của bạn phía dưới."
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:135
+#: CTFd/themes/core-beta/templates/components/navbar.html:52
+#: CTFd/themes/core-beta/templates/scoreboard.html:7
+msgid "Scoreboard"
+msgstr "Bảng điểm"
+
+#: CTFd/themes/core-beta/templates/scoreboard.html:36
+#, fuzzy
+msgid "Place"
+msgstr "hạng"
+
+#: CTFd/themes/core-beta/templates/scoreboard.html:38
+#: CTFd/themes/core-beta/templates/teams/private.html:320
+#: CTFd/themes/core-beta/templates/teams/public.html:86
+msgid "Score"
+msgstr "Điểm"
+
+#: CTFd/themes/core-beta/templates/components/navbar.html:137
 #: CTFd/themes/core-beta/templates/settings.html:8
 #: CTFd/themes/core-beta/templates/setup.html:50
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:123
+#: CTFd/themes/core-beta/templates/components/navbar.html:125
 #: CTFd/themes/core-beta/templates/settings.html:21
 msgid "Profile"
 msgstr "Hồ sơ"
@@ -545,32 +588,27 @@ msgstr "Thời gian"
 msgid "UTC Preview"
 msgstr "Xem trước UTC"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:34
+#: CTFd/themes/core-beta/templates/components/navbar.html:36
 #: CTFd/themes/core-beta/templates/users/users.html:6
 msgid "Users"
 msgstr "Người dùng"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:41
+#: CTFd/themes/core-beta/templates/components/navbar.html:43
 #: CTFd/themes/core-beta/templates/teams/teams.html:6
 msgid "Teams"
 msgstr "Đội"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:50
-msgid "Scoreboard"
-msgstr "Bảng điểm"
-
-#: CTFd/themes/core-beta/templates/components/navbar.html:80
-#: CTFd/themes/admin/templates/base.html:5
+#: CTFd/themes/core-beta/templates/components/navbar.html:82
 msgid "Admin Panel"
 msgstr "Trang quản trị"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:110
+#: CTFd/themes/core-beta/templates/components/navbar.html:112
 #: CTFd/themes/core-beta/templates/teams/team_enrollment.html:6
 #: CTFd/themes/core-beta/templates/teams/teams.html:49
 msgid "Team"
 msgstr "Nhóm"
 
-#: CTFd/themes/core-beta/templates/components/navbar.html:147
+#: CTFd/themes/core-beta/templates/components/navbar.html:149
 msgid "Logout"
 msgstr "Đăng xuất"
 
@@ -600,6 +638,7 @@ msgstr "Bad Gateway"
 
 #: CTFd/themes/core-beta/templates/macros/forms.html:13
 #: CTFd/themes/core-beta/templates/macros/forms.html:36
+#: CTFd/themes/core-beta/templates/macros/forms.html:65
 msgid "(Optional)"
 msgstr "(Không bắt buộc)"
 
@@ -688,11 +727,6 @@ msgstr "điểm"
 msgid "Members"
 msgstr "Thành viên"
 
-#: CTFd/themes/core-beta/templates/teams/private.html:320
-#: CTFd/themes/core-beta/templates/teams/public.html:86
-msgid "Score"
-msgstr "Điểm"
-
 #: CTFd/themes/core-beta/templates/teams/private.html:332
 msgid "Captain"
 msgstr "Thủ lĩnh"
@@ -765,344 +799,4 @@ msgstr[0] "người dùng"
 msgid "team"
 msgid_plural "teams"
 msgstr[0] "đội"
-
-#: CTFd/themes/admin/templates/statistics.html:6
-msgid "Statistics"
-msgstr "Số liệu thống kê"
-
-#: CTFd/themes/admin/templates/statistics.html:12
-msgid "users registered"
-msgstr "Người dùng đã đăng ký"
-
-#: CTFd/CTFd/themes/admin/templates/statistics.html:14
-msgid "teams registered"
-msgstr "Đội đã đăng ký"
-
-#: CTFd/themes/admin/templates/statistics.html:16
-msgid "IP addresses"
-msgstr "Địa chỉ IP"
-
-#: CTFd/themes/admin/templates/statistics.html:18
-msgid "total possible points"
-msgstr "Tổng số điểm có thể"
-
-#: CTFd/themes/core-beta/templates/challenge.html:11
-msgid "challenges"
-msgstr "Thử thách"
-
-#: CTFd/themes/admin/templates/statistics.html:71
-msgid "right submissions"
-msgstr "Bài nộp đúng"
-
-#: CTFd/themes/admin/templates/statistics.html:19
-msgid "wrong submissions"
-msgstr "Bài nộp sai"
-
-#: CTFd/themes/admin/templates/base.html:5
-msgid "Admin Panel"
-msgstr "Trang quản trị"
-
-#: CTFd/themes/admin/templates/base.html:50
-msgid "Statistics"
-msgstr "Số liệu thống kê"
-
-#: CTFd/themes/admin/templates/base.html:54
-msgid "Pages"
-msgstr "Trang"
-
-#: CTFd/themes/admin/templates/base.html:56
-msgid "All Pages"
-msgstr "Tất cả trang"
-
-#: CTFd/themes/admin/templates/base.html:57
-msgid "New Page"
-msgstr "Trang mới"
-
-#: CTFd/themes/admin/templates/base.html:68
-msgid "Submissions"
-msgstr "Bài nộp"
-
-#: CTFd/themes/admin/templates/base.html:70
-msgid "All Submissions"
-msgstr "Tất cả bài nộp"
-
-#: CTFd/themes/admin/templates/base.html:71
-msgid "Correct Submissions"
-msgstr "Bài nộp đúng"
-
-#: CTFd/themes/admin/templates/base.html:72
-msgid "Incorrect Submissions"
-msgstr "Bài nộp sai"
-
-#: CTFd/themes/admin/templates/base.html:75
-msgid "Config"
-msgstr "Cấu hình"
-
-#: CTFd/themes/admin/templates/notifications.html:6
-msgid "Notifications"
-msgstr "Thông báo"
-
-#: CTFd/themes/admin/templates/notifications.html:15
-msgid "Title"
-msgstr "Tiêu đề"
-
-#: CTFd/themes/admin/templates/notifications.html:18
-msgid "Notification title."
-msgstr "Tiêu đề thông báo."
-
-#: CTFd/themes/admin/templates/notifications.html:22
-msgid "Content"
-msgstr "Nội dung"
-
-#: CTFd/themes/admin/templates/notifications.html:25
-msgid "Notification content."
-msgstr "Nội dung thông báo."
-
-#: CTFd/themes/admin/templates/notifications.html:25
-msgid "Notification Type"
-msgstr "Loại thông báo"
-
-#: CTFd/themes/admin/templates/notifications.html:40
-msgid "What type of notification users receive."
-msgstr "Loại thông báo mà người dùng nhận được."
-
-#: CTFd/themes/admin/templates/notifications.html:45
-msgid "Play Sound"
-msgstr "Phát âm thanh"
-
-#: CTFd/themes/admin/templates/notifications.html:48
-msgid "Play Sound"
-msgstr "Phát âm thanh"
-
-#: CTFd/themes/admin/templates/notifications.html:52
-msgid "Play sound for users when they receive the notification."
-msgstr "Phát âm thanh cho người dùng khi họ nhận được thông báo."
-
-#: CTFd/themes/admin/templates/pages.html:9
-msgid "Pages"
-msgstr "Trang"
-
-#: CTFd/themes/admin/templates/pages.html:41
-msgid "Title"
-msgstr "Tiêu đề"
-
-#: CTFd/themes/admin/templates/pages.html:42
-msgid "Route"
-msgstr "Đường dẫn"
-
-#: CTFd/themes/admin/templates/pages.html:43
-msgid "Authentication"
-msgstr "Xác thực"
-
-#: CTFd/themes/admin/templates/pages.html:44
-msgid "Hidden"
-msgstr "Ẩn"
-
-#: CTFd/themes/admin/templates/pages.html:45
-msgid "Published"
-msgstr "Đã xuất bản"
-
-#: CTFd/themes/admin/templates/users/users.html:9
-msgid "Users"
-msgstr "Người dùng"
-
-#: CTFd/themes/admin/templates/users/users.html:25
-msgid "Searching for users with "
-msgstr "Đang tìm kiếm người dùng có "
-
-#: CTFd/themes/admin/templates/users/users.html:25
-msgid "matching"
-msgstr "khớp với"
-
-#: CTFd/themes/admin/templates/users/users.html:28
-msgid "Page"
-msgstr "Trang"
-
-#: CTFd/themes/admin/templates/users/users.html:28
-msgid "of"
-msgstr "của"
-
-#: CTFd/themes/admin/templates/users/users.html:28
-msgid "results"
-msgstr "kết quả"
-
-#: CTFd/themes/admin/templates/users/users.html:77
-msgid "User"
-msgstr "Người dùng"
-
-#: CTFd/themes/admin/templates/users/users.html:79
-msgid "Country"
-msgstr "Quốc gia"
-
-#: CTFd/themes/admin/templates/users/users.html:80
-msgid "Admin"
-msgstr "Quản trị"
-
-#: CTFd/themes/admin/templates/users/users.html:81
-msgid "Verified"
-msgstr "Xác minh"
-
-#: CTFd/themes/admin/templates/users/users.html:82
-msgid "Hidden"
-msgstr "Ẩn"
-
-#: CTFd/themes/admin/templates/users/users.html:83
-msgid "Banned"
-msgstr "Cấm"
-
-#: CTFd/themes/admin/templates/teams/teams.html:9
-msgid "Teams"
-msgstr "Đội"
-
-#: CTFd/themes/admin/templates/teams/teams.html:24
-msgid "Searching for teams with"
-msgstr "Đang tìm kiếm đội có"
-
-#: CTFd/themes/admin/templates/teams/teams.html:24
-msgid "matching"
-msgstr "khớp với"
-
-#: CTFd/themes/admin/templates/teams/teams.html:27
-msgid "Page"
-msgstr "Trang"
-
-#: CTFd/themes/admin/templates/teams/teams.html:9
-msgid "of"
-msgstr "của"
-
-#: CTFd/themes/admin/templates/teams/teams.html:9
-msgid "results"
-msgstr "kết quả"
-
-#: CTFd/themes/admin/templates/teams/teams.html:77
-msgid "Team"
-msgstr "Đội"
-
-#: CTFd/themes/admin/templates/teams/teams.html:78
-msgid "Country"
-msgstr "Quốc gia"
-
-#: CTFd/themes/admin/templates/teams/teams.html:79
-msgid "Hidden"
-msgstr "Ẩn"
-
-#: CTFd/themes/admin/templates/teams/teams.html:79
-msgid "Banned"
-msgstr "Cấm"
-
-#: CTFd/themes/admin/templates/scoreboard.html:6
-msgid "Scoreboard"
-msgstr "Bảng điểm"
-
-#: CTFd/themes/admin/templates/scoreboard.html:28
-msgid "Teams"
-msgstr "Đội"
-
-#: CTFd/themes/admin/templates/scoreboard.html:33
-msgid "Users"
-msgstr "Người dùng"
-
-
-
-
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:11
-msgid "Challenges"
-msgstr "Thử thách"
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:79
-msgid "Name"
-msgstr "Tên"
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:80
-msgid "Category"
-msgstr "Loại"
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:81
-msgid "Value"
-msgstr "Giá trị"
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:82
-msgid "Type"
-msgstr "Kiểu"
-
-#:CTFf/themes/admin/templates/challenges/challenges.html:83
-msgid "State"
-msgstr "Tình trạng"
-
-#:CTFf/themes/admin/templates/submissions.html:10
-msgid "Submissions"
-msgstr "Bài nộp"
-
-#:CTFf/themes/admin/templates/submissions.html:85
-msgid "User"
-msgstr "Người dùng"
-
-#:CTFf/themes/admin/templates/submissions.html:88
-msgid "Challenge"
-msgstr "Thử thách"
-
-#:CTFf/themes/admin/templates/submissions.html:85
-msgid "Type"
-msgstr "Kiểu"
-
-#:CTFf/themes/admin/templates/submissions.html:85
-msgid "Provide"
-msgstr "Cung cấp"
-
-#:CTFf/themes/admin/templates/submissions.html:85
-msgid "Date"
-msgstr "Ngày"
-
-#:CTFf/themes/admin/templates/config.html:10
-msgid "Configuration"
-msgstr "Cấu hình"
-
-#:CTFf/themes/admin/templates/config.html:18
-msgid "Appearance"
-msgstr "Chung"
-
-#:CTFf/themes/admin/templates/config.html:21
-msgid "Theme"
-msgstr "Chủ đề"
-
-#:CTFf/themes/admin/templates/config.html:24
-msgid "Accounts"
-msgstr "Tài khoản"
-
-#:CTFf/themes/admin/templates/config.html:27
-msgid "Pages"
-msgstr "Chủ "
-
-#:CTFf/themes/admin/templates/config.html:30
-msgid "Brackets"
-msgstr "Gộp nhóm"
-
-#:CTFf/themes/admin/templates/config.html:33
-msgid "Custom Fields"
-msgstr "Trường tùy chỉnh"
-
-#:CTFf/themes/admin/templates/config.html:39
-msgid "Settings"
-msgstr "Cài đặt"
-
-#:CTFf/themes/admin/templates/config.html:42
-msgid "Security"
-msgstr "Bảo mật"
-
-#:CTFf/themes/admin/templates/config.html:48
-msgid "Time"
-msgstr "Thời gian"
-
-#:CTFf/themes/admin/templates/config.html:51
-msgid "Social"
-msgstr "Xã hội"
-
-#:CTFf/themes/admin/templates/config.html:54
-msgid "Legal"
-msgstr "Hợp pháp"
-
-#:CTFf/themes/admin/templates/config.html:57
-msgid "Backup"
-msgstr "Hỗ trợ"
 
