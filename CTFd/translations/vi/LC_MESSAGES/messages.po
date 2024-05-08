@@ -1018,14 +1018,91 @@ msgstr "Tên"
 msgid "Category"
 msgstr "Loại"
 
-#:CTFf/themes/admin/templates/challenges/challenges.html:11
+#:CTFf/themes/admin/templates/challenges/challenges.html:81
 msgid "Value"
 msgstr "Giá trị"
 
-#:CTFf/themes/admin/templates/challenges/challenges.html:11
+#:CTFf/themes/admin/templates/challenges/challenges.html:82
 msgid "Type"
 msgstr "Kiểu"
 
-#:CTFf/themes/admin/templates/challenges/challenges.html:11
+#:CTFf/themes/admin/templates/challenges/challenges.html:83
 msgid "State"
 msgstr "Tình trạng"
+
+#:CTFf/themes/admin/templates/submissions.html:10
+msgid "Submissions"
+msgstr "Bài nộp"
+
+#:CTFf/themes/admin/templates/submissions.html:85
+msgid "User"
+msgstr "Người dùng"
+
+#:CTFf/themes/admin/templates/submissions.html:88
+msgid "Challenge"
+msgstr "Thử thách"
+
+#:CTFf/themes/admin/templates/submissions.html:85
+msgid "Type"
+msgstr "Kiểu"
+
+#:CTFf/themes/admin/templates/submissions.html:85
+msgid "Provide"
+msgstr "Cung cấp"
+
+#:CTFf/themes/admin/templates/submissions.html:85
+msgid "Date"
+msgstr "Ngày"
+
+#:CTFf/themes/admin/templates/config.html:10
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#:CTFf/themes/admin/templates/config.html:18
+msgid "Appearance"
+msgstr "Chung"
+
+#:CTFf/themes/admin/templates/config.html:21
+msgid "Theme"
+msgstr "Chủ đề"
+
+#:CTFf/themes/admin/templates/config.html:24
+msgid "Accounts"
+msgstr "Tài khoản"
+
+#:CTFf/themes/admin/templates/config.html:27
+msgid "Pages"
+msgstr "Chủ "
+
+#:CTFf/themes/admin/templates/config.html:30
+msgid "Brackets"
+msgstr "Gộp nhóm"
+
+#:CTFf/themes/admin/templates/config.html:33
+msgid "Custom Fields"
+msgstr "Trường tùy chỉnh"
+
+#:CTFf/themes/admin/templates/config.html:39
+msgid "Settings"
+msgstr "Cài đặt"
+
+#:CTFf/themes/admin/templates/config.html:42
+msgid "Security"
+msgstr "Bảo mật"
+
+#:CTFf/themes/admin/templates/config.html:48
+msgid "Time"
+msgstr "Thời gian"
+
+#:CTFf/themes/admin/templates/config.html:51
+msgid "Social"
+msgstr "Xã hội"
+
+#:CTFf/themes/admin/templates/config.html:54
+msgid "Legal"
+msgstr "Hợp pháp"
+
+#:CTFf/themes/admin/templates/config.html:57
+msgid "Backup"
+msgstr "Hỗ trợ"
+

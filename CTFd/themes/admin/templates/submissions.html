@@ -7,7 +7,7 @@
 
 <div class="jumbotron">
 	<div class="container">
-		<h1>{% if type %}{{ type|title }} {% endif %}Submissions</h1>
+		<h1>{% if type %}{{ type|title }} {% endif %}{% trans %}Submissions{% endtrans %}</h1>
 	</div>
 </div>
 
@@ -82,13 +82,13 @@
 						</th>
 						<th class="text-center sort-col"><b>ID</b></th>
 						{% if mode == UserModeTypes.TEAMS %}
-						<th class="sort-col"><b>User</b></th>
+						<th class="sort-col"><b>{% trans %}User{% endtrans %}</b></th>
 						{% endif %}
 						<th class="sort-col"><b>{{ get_mode_as_word(capitalize=True) }}</b></th>
-						<th class="sort-col"><b>Challenge</b></th>
-						<th class="sort-col"><b>Type</b></th>
-						<th class="sort-col"><b>Provided</b></th>
-						<th class="text-center sort-col"><b>Date</b></th>
+						<th class="sort-col"><b>{% trans %}Challenge{% endtrans %}</b></th>
+						<th class="sort-col"><b>{% trans %}Type{% endtrans %}</b></th>
+						<th class="sort-col"><b>{% trans %}Provided{% endtrans %}</b></th>
+						<th class="text-center sort-col"><b>{% trans %}Date{% endtrans %}</b></th>
 					</tr>
 				</thead>
 				<tbody>
