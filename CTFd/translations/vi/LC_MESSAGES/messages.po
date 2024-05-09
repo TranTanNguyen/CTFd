@@ -902,6 +902,78 @@ msgstr "Ẩn"
 msgid "Published"
 msgstr "Đã xuất bản"
 
+#: CTFd/themes/admin/templates/editor.html:34
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: CTFd/themes/admin/templates/editor.html:37
+msgid "This is the title shown on the navigation bar."
+msgstr "Đây là tiêu đề hiển thị trên thanh điều hướng."
+
+#: CTFd/themes/admin/templates/editor.html:47
+msgid "Route"
+msgstr "Tuyến đường"
+
+#: CTFd/themes/admin/templates/editor.html:50
+msgid "This is the URL route that your page will be at (e.g. /page). You can also enter links to link to that page."
+msgstr "Đây là tuyến URL mà trang của bạn sẽ ở đó (ví dụ: /trang). Bạn cũng có thể nhập link để liên kết đến trang đó."
+
+#: CTFd/themes/admin/templates/editor.html:59
+msgid "Format"
+msgstr "Định dạng"
+
+#: CTFd/themes/admin/templates/editor.html:62
+msgid "The markup format used to render the page."
+msgstr "Định dạng đánh dấu được sử dụng để hiển thị trang."
+
+#: CTFd/themes/admin/templates/editor.html:66
+msgid "Target"
+msgstr "Mục tiêu"
+
+#: CTFd/themes/admin/templates/editor.html:69
+msgid "Context to open page in."
+msgstr "Bối cảnh để mở trang."
+
+#: CTFd/themes/admin/templates/editor.html:81
+msgid "Content"
+msgstr "Nội dung"
+
+#: CTFd/themes/admin/templates/editor.html:82
+msgid "This is the HTML content of your page"
+msgstr "Đây là nội dung HTML trên trang của bạn"
+
+#: CTFd/themes/admin/templates/editor.html:87
+msgid "Write"
+msgstr "Viết"
+
+#: CTFd/themes/admin/templates/editor.html:90
+msgid "Preview"
+msgstr "Xem trước"
+
+#: CTFd/themes/admin/templates/editor.html:103
+msgid "Media Library"
+msgstr "Thư viện đa phương tiện"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #: CTFd/themes/admin/templates/users/users.html:9
 msgid "Users"
 msgstr "Người dùng"
@@ -912,7 +984,7 @@ msgstr "Đang tìm kiếm người dùng có "
 
 #: CTFd/themes/admin/templates/users/users.html:25
 msgid "matching"
-msgstr "khớp với"
+msgstr "khớp với "
 
 #: CTFd/themes/admin/templates/users/users.html:28
 msgid "Page"
@@ -1042,15 +1114,15 @@ msgstr "Người dùng"
 msgid "Challenge"
 msgstr "Thử thách"
 
-#:CTFf/themes/admin/templates/submissions.html:85
+#:CTFf/themes/admin/templates/submissions.html:89
 msgid "Type"
 msgstr "Kiểu"
 
-#:CTFf/themes/admin/templates/submissions.html:85
+#:CTFf/themes/admin/templates/submissions.html:90
 msgid "Provide"
 msgstr "Cung cấp"
 
-#:CTFf/themes/admin/templates/submissions.html:85
+#:CTFf/themes/admin/templates/submissions.html:91
 msgid "Date"
 msgstr "Ngày"
 
@@ -1106,3 +1178,10 @@ msgstr "Hợp pháp"
 msgid "Backup"
 msgstr "Hỗ trợ"
 
+#:CTFf/themes/admin/templates/config.html:57
+msgid "User Mode"
+msgstr "Chế độ người dùng"
+
+#:CTFf/themes/admin/templates/reset.html:9
+msgid "Reset"
+msgstr "Cài lại"

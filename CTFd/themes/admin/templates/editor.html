@@ -31,10 +31,10 @@
 					<div class="row">
 						<div class="col-md-12">
 							{% set title = page.title if page is defined %}
-							<b>{{ form.title.label }}</b>
-							{{ form.title(class="form-control radius", id="route", placeholder="Title", value=title or "") }}
+							<b>{% trans %}Title{% endtrans %}</b>
+							{{ form.title(class="form-control radius", id="route",  value=title or "") }}
 							<small class="text-muted">
-								{{ form.title.description }}
+								{% trans %}This is the title shown on the navigation bar.{% endtrans %}
 							</small>
 						</div>
 					</div>
@@ -44,10 +44,10 @@
 					<div class="row">
 						<div class="col-md-12">
 							{% set route = page.route if page is defined %}
-							<b>{{ form.route.label }}</b>
-							{{ form.route(class="form-control radius", placeholder="Route", value=route) }}
+							<b>{% trans %}Route{% endtrans %}</b>
+							{{ form.route(class="form-control radius", value=route) }}
 							<small class="text-muted">
-								{{ form.route.description }}
+								{% trans %}This is the URL route that your page will be at (e.g. /page). You can also enter links to link to that page.{% endtrans %}
 							</small>
 						</div>
 					</div>
@@ -56,17 +56,17 @@
 				<div class="form-group">
 					<div class="row">
 						<div class="col-md-6">
-							<b>{{ form.format.label }}</b>
+							<b>{% trans %}Format{% endtrans %}</b>
 							{{ form.format(class="form-control custom-select", value=format) }}
 							<small class="text-muted">
-								{{ form.format.description }}
+								{% trans %}The markup format used to render the page.{% endtrans %}
 							</small>
 						</div>
 						<div class="col-md-6">
-							<b>{{ form.link_target.label }}</b>
+							<b>{% trans %}Target{% endtrans %}</b>
 							{{ form.link_target(class="form-control custom-select", placeholder="Target", value=format) }}
 							<small class="text-muted">
-								{{ form.link_target.description }}
+								{% trans %}Context to open page in.{% endtrans %}
 							</small>
 						</div>
 					</div>
@@ -78,16 +78,16 @@
 					<div class="row">
 						<div class="col-md-12">
 
-							<h3>Content</h3>
-							<small class="text-muted">This is the HTML content of your page</small>
+							<h3>{% trans %}Content{% endtrans %}</h3>
+							<small class="text-muted">{% trans %}This is the HTML content of your page{% endtrans %}</small>
 
 							<ul class="nav nav-tabs" role="tablist" id="content-edit">
 								<li class="nav-item" role="presentation" class="active">
 									<a class="nav-link active" href="#content-write" aria-controls="home" role="tab"
-									data-toggle="tab">Write</a>
+									data-toggle="tab">{% trans %}Write{% endtrans %}</a>
 								</li>
 								<li class="nav-item" role="presentation">
-									<a class="nav-link preview-page" href="#">Preview</a>
+									<a class="nav-link preview-page" href="#">{% trans %}Preview{% endtrans %}</a>
 								</li>
 							</ul>
 
@@ -100,7 +100,7 @@
 											<div class="btn-group">
 												<button type="button" class="btn btn-primary" id="media-button">
 													<i class="fas fa-camera-retro"></i>
-													Media Library
+													{% trans %}Media Library{% endtrans %}
 												</button>
 											</div>
 										</div>
