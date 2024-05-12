@@ -7,7 +7,7 @@
 <div class="jumbotron">
 	<div class="container">
 		<h1>{% trans %}Teams{% endtrans %}
-			<span class="create-team" role="button" data-toggle="tooltip" title="Create Team">
+			<span class="create-team" role="button" data-toggle="tooltip" title="Tạo đội">
 				<a href="{{ url_for('admin.teams_new') }}" style="color: inherit;">
 					<i class="btn-fa fas fa-plus-circle"></i>
 				</a>
@@ -34,7 +34,7 @@
 					{{ form.field(class="form-control custom-select w-100") }}
 				</div>
 				<div class="form-group col-md-8">
-					{{ form.q(class="form-control w-100", placeholder="Search for matching teams") }}
+					{{ form.q(class="form-control w-100", placeholder="Tìm kiếm đội phù hợp") }}
 				</div>
 				<div class="form-group col-md-2">
 					<button type="submit" class="btn btn-primary w-100">
@@ -52,10 +52,10 @@
 		<div class="col-md-12">
 			<div class="float-right pb-3">
 				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-outline-secondary" data-toggle="tooltip" title="Edit Teams" id="teams-edit-button">
+					<button type="button" class="btn btn-outline-secondary" data-toggle="tooltip" title="Chỉnh sửa đội" id="teams-edit-button">
 						<i class="btn-fa fas fa-pencil-alt"></i>
 					</button>
-					<button type="button" class="btn btn-outline-danger" data-toggle="tooltip" title="Delete Teams" id="teams-delete-button">
+					<button type="button" class="btn btn-outline-danger" data-toggle="tooltip" title="Xóa đội" id="teams-delete-button">
 						<i class="btn-fa fas fa-trash-alt"></i>
 					</button>
 				</div>
@@ -123,13 +123,13 @@
 
 						<td class="team-hidden d-md-table-cell d-lg-table-cell text-center" value="{{ team.hidden }}">
 							{% if team.hidden %}
-								<span class="badge badge-danger">hidden</span>
+								<span class="badge badge-danger">{% trans %}hidden{% endtrans %}</span>
 							{% endif %}
 						</td>
 
 						<td class="team-banned d-md-table-cell d-lg-table-cell text-center" value="{{ team.banned }}">
 							{% if team.banned %}
-								<span class="badge badge-danger">banned</span>
+								<span class="badge badge-danger">{% trans %}banned{% endtrans %}</span>
 							{% endif %}
 						</td>
 					</tr>
