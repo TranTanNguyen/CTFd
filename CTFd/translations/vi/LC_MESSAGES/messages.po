@@ -957,23 +957,6 @@ msgstr "Thư viện đa phương tiện"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #: CTFd/themes/admin/templates/users/users.html:9
 msgid "Users"
 msgstr "Người dùng"
@@ -1022,17 +1005,33 @@ msgstr "Ẩn"
 msgid "Banned"
 msgstr "Cấm"
 
+#: CTFd/themes/admin/templates/users/users.html:129
+msgid "admin"
+msgstr "quản trị"
+
+#: CTFd/themes/admin/templates/users/users.html:134
+msgid "verified"
+msgstr "xác minh"
+
+#: CTFd/themes/admin/templates/users/users.html:139
+msgid "hidden"
+msgstr "ẩn"
+
+#: CTFd/themes/admin/templates/users/users.html:144
+msgid "banned"
+msgstr "cấm"
+
 #: CTFd/themes/admin/templates/teams/teams.html:9
 msgid "Teams"
 msgstr "Đội"
 
 #: CTFd/themes/admin/templates/teams/teams.html:24
 msgid "Searching for teams with"
-msgstr "Đang tìm kiếm đội có"
+msgstr "Đang tìm kiếm đội có "
 
 #: CTFd/themes/admin/templates/teams/teams.html:24
 msgid "matching"
-msgstr "khớp với"
+msgstr "khớp với "
 
 #: CTFd/themes/admin/templates/teams/teams.html:27
 msgid "Page"
@@ -1061,6 +1060,14 @@ msgstr "Ẩn"
 #: CTFd/themes/admin/templates/teams/teams.html:79
 msgid "Banned"
 msgstr "Cấm"
+
+#: CTFd/themes/admin/templates/teams/teams.html:126
+msgid "hidden"
+msgstr "ẩn"
+
+#: CTFd/themes/admin/templates/teams/teams.html:132
+msgid "banned"
+msgstr "cấm"
 
 #: CTFd/themes/admin/templates/scoreboard.html:6
 msgid "Scoreboard"
