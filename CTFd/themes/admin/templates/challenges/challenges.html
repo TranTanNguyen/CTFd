@@ -10,7 +10,7 @@
 	<div class="container">
 		<h1>{% trans %}Challenges{% endtrans %}
 			<a class="no-decoration" href="{{ url_for('admin.challenges_new') }}">
-				<span role="button" data-toggle="tooltip" title="Create Challenge">
+				<span role="button" data-toggle="tooltip" title="Tạo thử thách">
 					<i class="btn-fa fas fa-plus-circle"></i>
 				</span>
 			</a>
@@ -35,7 +35,7 @@
 					{{ form.field(class="form-control custom-select w-100") }}
 				</div>
 				<div class="form-group col-md-8">
-					{{ form.q(class="form-control w-100", placeholder="Search for matching challenge") }}
+					{{ form.q(class="form-control w-100", placeholder="Tìm kiếm thử thách phù hợp") }}
 				</div>
 				<div class="form-group col-md-2">
 					<button type="submit" class="btn btn-primary w-100">
@@ -53,10 +53,10 @@
 		<div class="col-md-12">
 			<div class="float-right pb-3">
 				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-outline-secondary" data-toggle="tooltip" title="Edit Challenges" id="challenges-edit-button">
+					<button type="button" class="btn btn-outline-secondary" data-toggle="tooltip" title="Chỉnh sửa thử thách" id="challenges-edit-button">
 						<i class="btn-fa fas fa-pencil-alt"></i>
 					</button>
-					<button type="button" class="btn btn-outline-danger" data-toggle="tooltip" title="Delete Challenges" id="challenges-delete-button">
+					<button type="button" class="btn btn-outline-danger" data-toggle="tooltip" title="Xóa thử thách" id="challenges-delete-button">
 						<i class="btn-fa fas fa-trash-alt"></i>
 					</button>
 				</div>
